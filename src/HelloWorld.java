@@ -1,6 +1,7 @@
 /**
  *
  * @author Niko Lähteinen
+ * @author Terhi Järvinen
  */
 
 class HelloWorld{

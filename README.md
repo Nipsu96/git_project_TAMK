@@ -4,7 +4,7 @@ This repository is used for git project for the course in TAMK ( practicing comm
 
 ##Authors
 
-1.
+1.Niko Lähteinen
 2.
 3. Essi Ryynänen
 4. 

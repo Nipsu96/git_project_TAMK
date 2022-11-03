@@ -4,4 +4,7 @@ var hello = "Hello World";
 for (let i = 0; i < 10; i++) {
   console.log(hello);
 }
-setTimeout(() => console.log(hello), 1000);
+
+async function delayedHello() {
+  await setTimeout(() => console.log(hello), 1000);
+}

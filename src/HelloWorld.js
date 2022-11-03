@@ -5,7 +5,7 @@ async function delayedHello() {
 }
 function loopHello() {
   var hello = "Hello World";
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 5; i++) {
     console.log(hello);
   }
 }

@@ -4,3 +4,8 @@ This repository is used for git project for the course in TAMK ( practicing comm
 
 ##Authors
 Essi Ryynänen
+
+##Version history
+1.0 Initial release
+
+

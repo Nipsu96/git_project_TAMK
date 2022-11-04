@@ -1,6 +1,7 @@
 /**
  *
  * @author Niko Lähteinen
+ * @author Terhi Järvinen
  */
 import java.util.Scanner;
 class HelloWorld{

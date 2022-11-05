@@ -18,3 +18,4 @@ delayedHello(hello);
 //2. Use .then
 //3. Make another async func
 //4. ???
+//5. Profit

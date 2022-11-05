@@ -13,3 +13,5 @@ function loopHello(hello) {
 let hello = "Hello World";
 loopHello(hello);
 delayedHello(hello);
+
+//1. Add promise

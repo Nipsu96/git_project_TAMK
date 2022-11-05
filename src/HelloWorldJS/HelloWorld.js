@@ -15,3 +15,4 @@ loopHello(hello);
 delayedHello(hello);
 
 //1. Add promise
+//2. Use .then

@@ -10,6 +10,7 @@ function loopHello(hello) {
   }
 }
 
+//Takes a & b as arguments, divides a / b and returns promise with quotient
 function makeCalculation(a, b) {
   function asyncFunc(resolve, reject) {
     if (b === 0) {

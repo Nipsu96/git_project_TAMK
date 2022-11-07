@@ -1,8 +1,10 @@
 // best javascript app ever
 
+//
+
 // import
 
 // 1. do some shit
 
-//2. PROFIT
+// 2. PROFIT
 

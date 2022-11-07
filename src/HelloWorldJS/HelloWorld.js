@@ -31,8 +31,8 @@ let hello = "Hello World";
 loopHello(hello);
 delayedHello(hello);
 
-//1. Add promise
-//2. Use .then
-//3. Make another async func
+//1. Make async function that sends numbers to makeCalculations()
+//2. Wait for the number from makeCalculations.
+//3. Send it to loopHello() for loops.
 //4. ???
 //5. Profit

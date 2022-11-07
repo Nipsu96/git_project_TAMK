@@ -10,6 +10,22 @@ function loopHello(hello) {
   }
 }
 
+function makeCalculation(a, b) {
+  function asyncFunc(resolve, reject) {
+    if (b === 0) {
+      reject("Cannot divide with zero");
+    } else {
+      setTimeout(() => {
+        console.log("Calculating...");
+        const division = a / b;
+        resolve(division);
+      }, 1000);
+    }
+  }
+  const p = new Promise(asyncFunc);
+  return p;
+}
+
 let hello = "Hello World";
 loopHello(hello);
 delayedHello(hello);

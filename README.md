@@ -15,10 +15,10 @@ This project lasts 4 weeks and everyone working on this will 5 days a week make 
 
 ##Authors
 
-1. Niko Lähteinen
-2. Terhi Järvinen
-3. Essi Ryynänen
-4. Matias Karmanto
+1. Niko Lähteinen, Project manager
+2. Terhi Järvinen, Coder
+3. Essi Ryynänen, Coder
+4. Matias Karmanto, Coder
 
 ##Version history
 1.0.0 Initial release November 8 2022.

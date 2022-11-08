@@ -21,4 +21,4 @@ This project lasts 4 weeks and everyone working on this will 5 days a week make 
 4. Matias Karmanto
 
 ##Version history
-1.0 Initial release
+1.0 Initial release 8.11.2022

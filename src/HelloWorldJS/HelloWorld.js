@@ -26,8 +26,8 @@ function makeCalculation(a, b) {
   const p = new Promise(asyncFunc);
   return p;
 }
-async function math() {
-  const result = await makeCalculation(5, 10);
+async function math(a, b) {
+  const result = await makeCalculation(a, b);
   const p = await loopHello();
 }
 

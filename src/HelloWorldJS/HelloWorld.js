@@ -31,9 +31,6 @@ async function math() {
   const p = await loopHello();
 }
 
-loopHello(hello);
-delayedHello(hello);
-
 //1. Make async function that sends numbers to makeCalculations()
 //2. Wait for the number from makeCalculations.
 //3. Send it to loopHello() for loops.

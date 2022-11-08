@@ -4,7 +4,7 @@ async function delayedHello(hello) {
   await setTimeout(() => console.log(hello), 1000);
 }
 //Prints out "Hello World", 5 times with a loop
-function loopHello(hello) {
+async function loopHello(hello) {
   for (let i = 0; i < 5; i++) {
     console.log(hello);
   }
@@ -26,7 +26,10 @@ function makeCalculation(a, b) {
   const p = new Promise(asyncFunc);
   return p;
 }
-
+async function math() {
+  const result = await makeCalculation(5, 10);
+  const p = await loopHello();
+}
 let hello = "Hello World";
 loopHello(hello);
 delayedHello(hello);

@@ -8,6 +8,11 @@ Project's idea is to be a Hello World simulator.
 ##Table of content
 Something very cool
 
+##Technologies
+*Java
+*Javascript
+*HTML
+
 ##Requirements
 
 ##Installation
@@ -24,5 +29,7 @@ Something very cool
 4. Matias Karmanto, Coder
 
 ##Version history
+
 1.0.0 Initial release November 8 2022.
 1.0.1 release
+

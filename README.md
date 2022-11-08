@@ -5,6 +5,8 @@ This project lasts 4 weeks and everyone working on this will 5 days a week make 
 
 ##Table of content
 
+##Technologies
+
 ##Requirements
 
 ##Installation

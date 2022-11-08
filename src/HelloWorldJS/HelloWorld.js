@@ -28,7 +28,7 @@ function makeCalculation(a, b) {
 }
 async function math(a, b) {
   const result = await makeCalculation(a, b);
-  const p = await loopHello();
+  const p = await loopHello(result);
 }
 
 //1. Make async function that sends numbers to makeCalculations()

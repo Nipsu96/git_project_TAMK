@@ -30,7 +30,7 @@ async function math() {
   const result = await makeCalculation(5, 10);
   const p = await loopHello();
 }
-let hello = "Hello World";
+
 loopHello(hello);
 delayedHello(hello);
 

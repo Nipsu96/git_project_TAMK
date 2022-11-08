@@ -22,3 +22,4 @@ This project lasts 4 weeks and everyone working on this will 5 days a week make 
 
 ##Version history
 1.0.0 Initial release November 8 2022.
+1.0.1 release

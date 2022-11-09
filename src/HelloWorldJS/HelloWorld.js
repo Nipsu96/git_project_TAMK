@@ -5,7 +5,8 @@ async function delayedHello(hello) {
 }
 //Prints out "Hello World", 5 times with a loop
 async function loopHello(times) {
-  for (let i = 0; i < 5; i++) {
+  let hello = "Hello World!";
+  for (let i = 0; i < times; i++) {
     console.log(hello);
   }
 }

@@ -30,6 +30,7 @@ function makeCalculation(a, b) {
 async function math(a, b) {
   const result = await makeCalculation(a, b);
   const p = await loopHello(result);
+  return p;
 }
 
 //1. Use times-parameter in loopHello

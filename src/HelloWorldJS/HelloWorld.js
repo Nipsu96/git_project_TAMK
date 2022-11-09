@@ -34,6 +34,7 @@ async function math(a, b) {
   const p = await loopHello(result);
   return p;
 }
+math();
 
 //1. Use times-parameter in loopHello
 //2. Call math()

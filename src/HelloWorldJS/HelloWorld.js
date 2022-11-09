@@ -27,6 +27,8 @@ function makeCalculation(a, b) {
   const p = new Promise(asyncFunc);
   return p;
 }
+//Parameter a, b are passed to makeCalculations which divides the numbers.
+//Wait for the calculation to finish and send the result to loopHello(), which uses it to determine how many times to loop.
 async function math(a, b) {
   const result = await makeCalculation(a, b);
   const p = await loopHello(result);

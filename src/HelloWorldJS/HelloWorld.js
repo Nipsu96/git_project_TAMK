@@ -36,8 +36,4 @@ async function math(a, b) {
 }
 math();
 
-//1. Use times-parameter in loopHello
-//2. Call math()
-//3. Utilise delayedLoopHello()
-//4. ???
-//5. Profit
+//1. Utilise delayedLoopHello()

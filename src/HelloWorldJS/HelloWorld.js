@@ -5,7 +5,8 @@ async function delayedHello(hello) {
 }
 //Prints out "Hello World", 5 times with a loop
 async function loopHello(times) {
-  for (let i = 0; i < 5; i++) {
+  let hello = "Hello World!";
+  for (let i = 0; i < times; i++) {
     console.log(hello);
   }
 }
@@ -26,13 +27,13 @@ function makeCalculation(a, b) {
   const p = new Promise(asyncFunc);
   return p;
 }
+//Parameter a, b are passed to makeCalculations which divides the numbers.
+//Wait for the calculation to finish and send the result to loopHello(), which uses it to determine how many times to loop.
 async function math(a, b) {
   const result = await makeCalculation(a, b);
   const p = await loopHello(result);
+  return p;
 }
+math();
 
-//1. Use times-parameter in loopHello
-//2. Call math()
-//3. Utilise delayedLoopHello()
-//4. ???
-//5. Profit
+//1. Utilise delayedLoopHello()

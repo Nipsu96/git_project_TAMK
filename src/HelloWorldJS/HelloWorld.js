@@ -34,8 +34,12 @@ async function math(a, b) {
   const p = await loopHello(result);
   return p;
 }
-math();
+async function main()
+let num1 = 3;
+let num2 = 2;
+math(num1, num2).then((result) => )
 
-//1. Do math()
-//2. .then do delayedHello()
-//3. give delayedHello() hello-argument
+//1. Do main function
+//2. Do getNum function
+//3. Move every function call inside main-function
+//4. .then call delayedHello

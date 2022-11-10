@@ -29,8 +29,9 @@ function makeCalculation(a, b) {
 }
 //Parameter a, b are passed to makeCalculations which divides the numbers.
 //Wait for the calculation to finish and send the result to loopHello(), which uses it to determine how many times to loop.
-async function main(a, b) {
-  const result = await makeCalculation(a, b);
+async function main() {
+  const num = await getNum();
+  const result = await makeCalculation(num[0], num[1]);
   const p = await loopHello(result);
   return p;
 }

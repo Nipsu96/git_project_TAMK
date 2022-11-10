@@ -20,6 +20,6 @@
 // import
 let i ="Shrek"
 // 1. do some shit
-
+const donkey = "DONKEEH#";
 // 2. PROFIT
 

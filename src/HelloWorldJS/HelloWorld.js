@@ -36,4 +36,5 @@ async function math(a, b) {
 }
 math();
 
-//1. Utilise delayedLoopHello()
+//1. Do math()
+//2. .then do delayedHello

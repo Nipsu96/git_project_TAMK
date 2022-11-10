@@ -37,4 +37,5 @@ async function math(a, b) {
 math();
 
 //1. Do math()
-//2. .then do delayedHello
+//2. .then do delayedHello()
+//3. give delayedHello() hello-argument

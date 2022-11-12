@@ -16,6 +16,7 @@ Something very cool
 ##Requirements
 Some kind of terminal to get the version to your device.
 Something to read the information from.
+The team suggests cygwin or git bash for terminal.
 
 ##Installation
 

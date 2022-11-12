@@ -14,6 +14,7 @@ Something very cool
 *HTML
 
 ##Requirements
+Some kind of terminal to get the version to your device.
 
 ##Installation
 

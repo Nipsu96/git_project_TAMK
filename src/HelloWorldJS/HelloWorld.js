@@ -36,8 +36,8 @@ async function main() {
   return p;
 }
 async function getNum() {
-  let num1 = 2,
-    num2 = 6;
+  let num1 = 2;
+  let num2 = 6;
   return [num1, num2];
 }
 

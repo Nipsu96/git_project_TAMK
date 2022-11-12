@@ -43,6 +43,5 @@ async function getNum() {
 
 math();
 
-//2. Do getNum function
 //3. Move every function call inside main-function
 //4. .then call delayedHello

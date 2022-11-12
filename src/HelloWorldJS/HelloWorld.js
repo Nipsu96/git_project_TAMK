@@ -45,5 +45,4 @@ async function main() {
 
 math();
 
-//1. Move every function call inside main-function
-//2. .then call delayedHello
+//1. .then call delayedHello

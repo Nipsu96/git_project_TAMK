@@ -27,6 +27,13 @@ function makeCalculation(a, b) {
   const p = new Promise(asyncFunc);
   return p;
 }
+// Declares num1 and num2 used in main()
+async function getNum() {
+  let num1 = 2;
+  let num2 = 6;
+  return [num1, num2];
+}
+
 //Parameter a, b are passed to makeCalculations which divides the numbers.
 //Wait for the calculation to finish and send the result to loopHello(), which uses it to determine how many times to loop.
 async function main() {
@@ -34,11 +41,6 @@ async function main() {
   const result = await makeCalculation(num[0], num[1]);
   const p = await loopHello(result);
   return p;
-}
-async function getNum() {
-  let num1 = 2;
-  let num2 = 6;
-  return [num1, num2];
 }
 
 math();

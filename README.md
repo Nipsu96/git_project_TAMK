@@ -21,6 +21,7 @@ The team suggests cygwin or git bash for terminal.
 ##Installation
 
 ##Features
+The best features ever!
 
 ##License
 

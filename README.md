@@ -14,12 +14,17 @@ Something very cool
 *HTML
 
 ##Requirements
+Some kind of terminal to get the version to your device.
+Something to read the information from.
+The team suggests cygwin or git bash for terminal.
 
 ##Installation
 
 ##Features
+The best features ever!
 
 ##License
+Code is made by this team.
 
 ##Authors
 

@@ -43,5 +43,5 @@ async function getNum() {
 
 math();
 
-//3. Move every function call inside main-function
-//4. .then call delayedHello
+//1. Move every function call inside main-function
+//2. .then call delayedHello

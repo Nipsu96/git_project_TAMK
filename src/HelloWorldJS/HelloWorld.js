@@ -1,14 +1,17 @@
-//Waits 1sec, returns promise-object with hello
-async function delayedHello(hello) {
-  this.hello = hello;
-  await setTimeout(() => console.log(hello), 1000);
+//Parameter a, b are passed to makeCalculations which divides the numbers.
+//Wait for the calculation to finish and send the result to loopHello(), which uses it to determine how many times to loop.
+async function main() {
+  const num = await getNum();
+  const result = await makeCalculation(num[0], num[1]);
+  const p = await loopHello(result);
+  return p;
 }
-//Prints out "Hello World", 5 times with a loop
-async function loopHello(times) {
-  let hello = "Hello World!";
-  for (let i = 0; i < times; i++) {
-    console.log(hello);
-  }
+
+// Declares num1 and num2 used in main()
+async function getNum() {
+  let num1 = 12;
+  let num2 = 2;
+  return [num1, num2];
 }
 
 //Takes a & b as arguments, divides a / b and returns promise with quotient
@@ -27,22 +30,27 @@ function makeCalculation(a, b) {
   const p = new Promise(asyncFunc);
   return p;
 }
-// Declares num1 and num2 used in main()
-async function getNum() {
-  let num1 = 2;
-  let num2 = 6;
-  return [num1, num2];
-}
 
-//Parameter a, b are passed to makeCalculations which divides the numbers.
-//Wait for the calculation to finish and send the result to loopHello(), which uses it to determine how many times to loop.
-async function main() {
-  const num = await getNum();
-  const result = await makeCalculation(num[0], num[1]);
-  const p = await loopHello(result);
+//Prints out "Hello World", 5 times with a loop
+//Returns promise with hello string attached.
+function loopHello(times) {
+  function asyncHello(resolve, reject) {
+    let hello = "Hello World!";
+    for (let i = 0; i < times; i++) {
+      console.log(hello);
+    }
+    resolve(hello);
+  }
+
+  const p = new Promise(asyncHello);
   return p;
 }
 
-math();
+//Waits 1sec, returns promise-object with hello.
+async function delayedHello(hello) {
+  this.hello = hello;
+  const p = await setTimeout(() => console.log(hello), 1000);
+  return p;
+}
 
-//1. .then call delayedHello
+main().then((msg) => delayedHello(msg));

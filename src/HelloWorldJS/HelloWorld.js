@@ -5,6 +5,7 @@ async function delayedHello(hello) {
   return p;
 }
 //Prints out "Hello World", 5 times with a loop
+//Returns promise with hello string attached.
 function loopHello(times) {
   function asyncHello(resolve, reject) {
     let hello = "Hello World!";

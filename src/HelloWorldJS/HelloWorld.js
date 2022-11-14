@@ -7,13 +7,13 @@ async function delayedHello(hello) {
 //Prints out "Hello World", 5 times with a loop
 function loopHello(times) {
   function asyncHello(resolve, reject) {
+    let hello = "Hello World!";
     for (let i = 0; i < times; i++) {
       console.log(hello);
     }
     resolve(hello);
   }
 
-  let hello = "Hello World!";
   const p = new Promise(asyncHello);
   return p;
 }
@@ -51,5 +51,3 @@ async function main() {
 }
 
 main().then((msg) => delayedHello(msg));
-
-//1. .then call delayedHello

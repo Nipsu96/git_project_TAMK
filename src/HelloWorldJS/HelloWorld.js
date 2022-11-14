@@ -1,4 +1,6 @@
-//Waits 1sec, returns promise-object with hello
+main().then((msg) => delayedHello(msg));
+
+//Waits 1sec, returns promise-object with hello.
 async function delayedHello(hello) {
   this.hello = hello;
   const p = await setTimeout(() => console.log(hello), 1000);
@@ -50,5 +52,3 @@ async function main() {
   const p = await loopHello(result);
   return p;
 }
-
-main().then((msg) => delayedHello(msg));

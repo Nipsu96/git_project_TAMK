@@ -1,4 +1,11 @@
-main().then((msg) => delayedHello(msg));
+//Parameter a, b are passed to makeCalculations which divides the numbers.
+//Wait for the calculation to finish and send the result to loopHello(), which uses it to determine how many times to loop.
+async function main() {
+  const num = await getNum();
+  const result = await makeCalculation(num[0], num[1]);
+  const p = await loopHello(result);
+  return p;
+}
 
 // Declares num1 and num2 used in main()
 async function getNum() {
@@ -46,11 +53,4 @@ async function delayedHello(hello) {
   return p;
 }
 
-//Parameter a, b are passed to makeCalculations which divides the numbers.
-//Wait for the calculation to finish and send the result to loopHello(), which uses it to determine how many times to loop.
-async function main() {
-  const num = await getNum();
-  const result = await makeCalculation(num[0], num[1]);
-  const p = await loopHello(result);
-  return p;
-}
+main().then((msg) => delayedHello(msg));

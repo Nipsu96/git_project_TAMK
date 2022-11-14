@@ -29,8 +29,8 @@ function makeCalculation(a, b) {
 }
 // Declares num1 and num2 used in main()
 async function getNum() {
-  let num1 = 2;
-  let num2 = 6;
+  let num1 = 12;
+  let num2 = 2;
   return [num1, num2];
 }
 

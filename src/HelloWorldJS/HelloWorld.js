@@ -43,6 +43,6 @@ async function main() {
   return p;
 }
 
-math();
+main();
 
 //1. .then call delayedHello

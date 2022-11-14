@@ -9,7 +9,7 @@ Project's idea is to be a Hello World simulator.
 [Tecnologies](#tecnologies)
 [Requirements](#requirements)
 [Installation](#installation)
-[Feature](#feature)
+[Features](#features)
 
 ##Technologies
 *Java

@@ -1,14 +1,21 @@
 //Waits 1sec, returns promise-object with hello
 async function delayedHello(hello) {
   this.hello = hello;
-  await setTimeout(() => console.log(hello), 1000);
+  const p = await setTimeout(() => console.log(hello), 1000);
+  return p;
 }
 //Prints out "Hello World", 5 times with a loop
-async function loopHello(times) {
-  let hello = "Hello World!";
-  for (let i = 0; i < times; i++) {
-    console.log(hello);
+function loopHello(times) {
+  function asyncHello(resolve, reject) {
+    for (let i = 0; i < times; i++) {
+      console.log(hello);
+    }
+    resolve(hello);
   }
+
+  let hello = "Hello World!";
+  const p = new Promise(asyncHello);
+  return p;
 }
 
 //Takes a & b as arguments, divides a / b and returns promise with quotient
@@ -43,6 +50,6 @@ async function main() {
   return p;
 }
 
-main();
+main().then((msg) => delayedHello(msg));
 
 //1. .then call delayedHello

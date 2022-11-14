@@ -10,6 +10,7 @@ Project's idea is to be a Hello World simulator.
 [Requirements](#requirements)
 [Installation](#installation)
 [Features](#features)
+[License](#license)
 
 ##Technologies
 *Java

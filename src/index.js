@@ -18,7 +18,8 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⠿⠿⠿⠛⠉
 somebody once told me
 the world was gonna roll me
-i ain't the sharpest tool in the shed*/
+i ain't the sharpest tool in the shed
+she was looking kind of dumb with her finger and her thumb*/
 
 // import
 let i ="Shrek"

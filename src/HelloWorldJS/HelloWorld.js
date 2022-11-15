@@ -47,10 +47,12 @@ function loopHello(times) {
 }
 
 //Waits 1sec, returns promise-object with hello.
-async function delayedHello(hello) {
-  this.hello = hello;
-  const p = await setTimeout(() => console.log(hello), 1000);
-  return p;
+function delayedHello(hello) {
+  setTimeout(() => console.log(hello), 1000);
 }
 
 main().then((msg) => delayedHello(msg));
+
+//1. Think of ways to use prototype
+//2. Maybe use palindrome exercise
+//3. function returning function exercise?

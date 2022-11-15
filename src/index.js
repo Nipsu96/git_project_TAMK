@@ -22,7 +22,8 @@ i ain't the sharpest tool in the shed
 she was looking kind of dumb with her finger and her thumb
 in the shape of an "L" on her forehead
 
-well, the years start coming and they don't stop coming*/
+well, the years start coming and they don't stop coming
+fed to the rules and i hit the ground running*/
 
 // import
 let i ="Shrek"

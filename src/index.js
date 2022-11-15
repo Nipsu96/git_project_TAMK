@@ -17,7 +17,9 @@
 ⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⠿⠿⠿⠛⠉
 somebody once told me
-the world was gonna roll me*/
+the world was gonna roll me
+i ain't the sharpest tool in the shed*/
+
 // import
 let i ="Shrek"
 // 1. do some shit

@@ -54,3 +54,4 @@ function delayedHello(hello) {
 main().then((msg) => delayedHello(msg));
 
 //1. Think of ways to use prototype
+//2. Maybe use palindrome exercise

@@ -48,7 +48,6 @@ function loopHello(times) {
 
 //Waits 1sec, returns promise-object with hello.
 async function delayedHello(hello) {
-  this.hello = hello;
   const p = await setTimeout(() => console.log(hello), 1000);
   return p;
 }

@@ -24,7 +24,7 @@ The team suggests cygwin or git bash for terminal.
 The best features ever!
 
 ##License
-Code is made by this team.
+Code is made by this team. The ascii art is from the internet.
 
 ##Authors
 
@@ -43,6 +43,7 @@ Code is made by this team.
   /'._  --  _.'\  /'._  --  _.'\   /'. `'--'` .'\/   '._-.__--__.-_.'   \
  /_   `""""`   _\/_   `""""`   _\ /_  `-./\.-'  _\'.    `""""""""`    .'`\
 (__/    '|    \ _)_|           |_)_/            \__)|        '       |   |
+  |_____'|_____|   \__________/   |              |;`_________'________`;-'
 
 ##Version history
 

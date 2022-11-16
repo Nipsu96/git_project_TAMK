@@ -1,4 +1,5 @@
 String.prototype.checkPalindrome() = function () {
+    string = this.toLowerCase();
 
 }
 

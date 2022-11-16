@@ -34,6 +34,7 @@ Code is made by this team.
 4. Matias Karmanto, Coder
 
          _          __________                              _,
+     _.-(_)._     ."          ".      .--""--.          _.-{__}-._
 
 ##Version history
 

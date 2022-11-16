@@ -1,5 +1,5 @@
 String.prototype.checkPalindrome() = function () {
-    string = this.toLowerCase();
+    string = this.toLowerCase().replace(/[^a-z]+/g, "");
 
 }
 

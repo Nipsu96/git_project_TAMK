@@ -4,3 +4,4 @@ String.prototype.checkPalindrome = function () {
 };
 
 console.log("saippuakauppias".checkPalindrome());
+console.log("moikka".checkPalindrome());

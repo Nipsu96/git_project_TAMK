@@ -28,7 +28,7 @@ The team suggests cygwin or git bash for terminal.
 The best features ever!
 
 ##License
-Code is made by this team.
+Code is made by this team. The ascii art is from the internet.
 
 ##Authors
 
@@ -36,6 +36,19 @@ Code is made by this team.
 2. Terhi Järvinen, Coder
 3. Essi Ryynänen, Coder
 4. Matias Karmanto, Coder
+
+         _          __________                              _,
+     _.-(_)._     ."          ".      .--""--.          _.-{__}-._
+   .'________'.   | .--------. |    .'        '.      .:-'`____`'-:.
+  [____________] /` |________| `\  /   .'``'.   \    /_.-"`_  _`"-._\
+  /  / .\/. \  \|  / / .\/. \ \  ||  .'/.\/.\'.  |  /`   / .\/. \   `\
+  |  \__/\__/  |\_/  \__/\__/  \_/|  : |_/\_| ;  |  |    \__/\__/    |
+  \            /  \            /   \ '.\    /.' / .-\                /-.
+  /'._  --  _.'\  /'._  --  _.'\   /'. `'--'` .'\/   '._-.__--__.-_.'   \
+ /_   `""""`   _\/_   `""""`   _\ /_  `-./\.-'  _\'.    `""""""""`    .'`\
+(__/    '|    \ _)_|           |_)_/            \__)|        '       |   |
+  |_____'|_____|   \__________/   |              |;`_________'________`;-'
+     N I K O        M A T I A S       E S S I           T E R H I
 
 ##Version history
 

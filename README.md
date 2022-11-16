@@ -33,6 +33,8 @@ Code is made by this team.
 3. Essi Ryynänen, Coder
 4. Matias Karmanto, Coder
 
+         _          __________                              _,
+
 ##Version history
 
 1.0.0 Initial release November 8 2022.

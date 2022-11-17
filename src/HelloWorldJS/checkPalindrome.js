@@ -10,5 +10,7 @@ String.prototype.checkPalindrome = function () {
   return string === string.split("").reverse().join("");
 };
 
+//Returns "true".
 console.log("saippuakauppias".checkPalindrome());
+//Returns "false".
 console.log("moikka".checkPalindrome());

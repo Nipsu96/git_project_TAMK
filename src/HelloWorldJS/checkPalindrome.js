@@ -4,6 +4,8 @@
 String.prototype.checkPalindrome = function () {
   //Converts the string into lowercase and removes any chars outside of alphabet.
   string = this.toLowerCase().replace(/[^a-z]+/g, "");
+  //Compare variable string and variable string that is split into array,
+  //reversed and joined back together.
   return string === string.split("").reverse().join("");
 };
 

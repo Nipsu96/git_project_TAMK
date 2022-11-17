@@ -6,6 +6,7 @@ String.prototype.checkPalindrome = function () {
   string = this.toLowerCase().replace(/[^a-z]+/g, "");
   //Compare variable string and variable string that is split into array,
   //reversed and joined back together.
+  //Returns boolean value.
   return string === string.split("").reverse().join("");
 };
 

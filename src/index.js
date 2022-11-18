@@ -33,3 +33,11 @@ const donkey = "DONKEEH#";
 if(i != 0){
 	console.log("We're no stangers to love");
 }
+
+
+
+//export
+//lie down on the ground
+//cry a little
+//cry a lot
+//stop

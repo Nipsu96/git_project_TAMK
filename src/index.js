@@ -26,3 +26,7 @@ const donkey = "DONKEEH#";
 if(i != 0){
 	console.log("We're no stangers to love");
 }
+
+
+
+//export

@@ -1,3 +1,4 @@
+//function that returns function to add 2 numbers
 function addition(num) {
   return function (num2) {};
 }

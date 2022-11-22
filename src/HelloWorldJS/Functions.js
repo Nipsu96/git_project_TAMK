@@ -5,5 +5,5 @@ function addition(num) {
     return num + num2;
   };
 }
-//Call function which adds the 2 numbers
+//Call function which adds the 2 numbers. Because of closure the numbers can be used.
 console.log(addition(5)(10));

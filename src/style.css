@@ -1,0 +1,21 @@
+/*this is stylesheet for index.html*/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+min-height: 100%;
+background: #fff;
+color: #000;
+
+}
+
+body {
+	font-size: 1.4rem;
+	text-rendering: optimizeLegibility;
+}
+
+h1 {
+	font-size: 1.4rem;
+}

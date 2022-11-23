@@ -1,13 +1,17 @@
-//Waits 1sec, returns promise-object with hello
-async function delayedHello(hello) {
-  this.hello = hello;
-  await setTimeout(() => console.log(hello), 1000);
+//Parameter a, b are passed to makeCalculations which divides the numbers.
+//Wait for the calculation to finish and send the result to loopHello(), which uses it to determine how many times to loop.
+async function main() {
+  const num = await getNum();
+  const result = await makeCalculation(num[0], num[1]);
+  const p = await loopHello(result);
+  return p;
 }
-//Prints out "Hello World", 5 times with a loop
-function loopHello(hello) {
-  for (let i = 0; i < 5; i++) {
-    console.log(hello);
-  }
+
+// Declares num1 and num2 used in main()
+async function getNum() {
+  let num1 = 12;
+  let num2 = 2;
+  return [num1, num2];
 }
 
 //Takes a & b as arguments, divides a / b and returns promise with quotient
@@ -27,12 +31,24 @@ function makeCalculation(a, b) {
   return p;
 }
 
-let hello = "Hello World";
-loopHello(hello);
-delayedHello(hello);
+//Prints out "Hello World", 5 times with a loop
+//Returns promise with hello string attached.
+function loopHello(times) {
+  function asyncHello(resolve, reject) {
+    let hello = "Hello World!";
+    for (let i = 0; i < times; i++) {
+      console.log(hello);
+    }
+    resolve(hello);
+  }
 
-//1. Make async function that sends numbers to makeCalculations()
-//2. Wait for the number from makeCalculations.
-//3. Send it to loopHello() for loops.
-//4. ???
-//5. Profit
+  const p = new Promise(asyncHello);
+  return p;
+}
+
+//Waits 1sec, returns promise-object with hello.
+function delayedHello(hello) {
+  setTimeout(() => console.log(hello), 1000);
+}
+
+main().then((msg) => delayedHello(msg));

@@ -1,0 +1,13 @@
+# Java object files
+*.class
+
+# Python compiled files
+*.pyc
+
+# Eamcs backup files
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.orig

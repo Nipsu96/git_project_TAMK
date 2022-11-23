@@ -10,4 +10,7 @@ function Sailor(name, sailorName) {
   Person.call(this, name);
   this.sailorName = this.sailorName;
 }
+Sailor.prototype.sailing = function () {
+  console.log(this.name + "is sailing around the world!");
+};
 Object.setPrototypeOf(Sailor.prototype, Person.prototype);

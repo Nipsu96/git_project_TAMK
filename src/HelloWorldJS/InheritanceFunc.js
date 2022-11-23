@@ -10,3 +10,4 @@ function Sailor(name, sailorName) {
   Person.call(this, name);
   this.sailorName = this.sailorName;
 }
+Object.setPrototypeOf(Sailor.prototype, Person.prototype);

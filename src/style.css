@@ -11,3 +11,7 @@ color: #000;
 
 }
 
+body {
+	font-size: 1.4rem;
+	text-rendering: optimizeLegibility;
+}

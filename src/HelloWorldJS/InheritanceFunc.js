@@ -5,3 +5,8 @@ function Person(name) {
 Person.prototype.singSong = function () {
   console.log(this.name + "starts singing");
 };
+
+function Sailor(name, sailorName) {
+  Person.call(this, name);
+  this.sailorName = this.sailorName;
+}

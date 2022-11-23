@@ -7,5 +7,3 @@ function addition(num) {
 }
 //Call function which adds the 2 numbers. Because of closure the numbers can be used.
 console.log(addition(5)(10));
-
-//1.What's next?

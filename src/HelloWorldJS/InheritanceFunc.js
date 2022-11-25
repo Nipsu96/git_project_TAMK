@@ -21,6 +21,7 @@ Sailor.prototype.sailing = function () {
       " & he is sailing around the world!"
   );
 };
+//Assigns inheritance for sailor.prototype from person.prototype.
 Object.setPrototypeOf(Sailor.prototype, Person.prototype);
 
 let kalle = new Sailor("kalle", "kovis");

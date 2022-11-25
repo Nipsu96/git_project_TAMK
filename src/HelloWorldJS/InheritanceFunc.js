@@ -24,3 +24,8 @@ Object.setPrototypeOf(Sailor.prototype, Person.prototype);
 let kalle = new Sailor("kalle", "kovis");
 kalle.singSong();
 kalle.sailing();
+
+let veikko = new Person("veikko");
+veikko.singSong();
+//won't work because veikko isn't a sailor
+//veikko.sailing();

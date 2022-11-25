@@ -37,7 +37,16 @@ Code is made by this team. The ascii art is from the internet.
 3. Essi Ryynänen, Coder
 4. Matias Karmanto, Coder
 
- 
+     .-"-.
+    /_ _  \
+    \@ @  /
+    (_> _)
+      `)(_
+      /((_`)_,
+      \__(/-"
+     __|||__
+jgs ((__|__))
+      Niko 
 
 ##Version history
 

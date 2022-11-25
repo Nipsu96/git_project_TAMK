@@ -1,0 +1,28 @@
+/*this is stylesheet for index.html*/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+background: #fff;
+color: #000;
+
+}
+
+body {
+	font-size: 1.4rem;
+}
+
+h1 {
+	font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+
+a {
+    text-decoration: none;
+}

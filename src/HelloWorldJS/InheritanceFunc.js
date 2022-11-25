@@ -1,7 +1,8 @@
-//1. Add function based example of inheritance.
+//Function constructor to create a new person.
 function Person(name) {
   this.name = name;
 }
+//Function for person to sing a song.
 Person.prototype.singSong = function () {
   console.log(this.name + " starts singing");
 };

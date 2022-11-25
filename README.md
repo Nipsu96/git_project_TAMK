@@ -48,6 +48,18 @@ Code is made by this team. The ascii art is from the internet.
 jgs ((__|__))
       Niko 
 
+         .-"""-.
+        /       \
+        \       /
+ .-"""-.-`.-.-.<  _
+/      _,-\ ()()_/:)
+\     / ,  `     `|
+ '-..-| \-.,___,  /
+       \ `-.__/  /
+  jgs   `-.__.-'`
+         Matias
+
+
 ##Version history
 
 1.0.0 Initial release November 8 2022.

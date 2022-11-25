@@ -8,7 +8,7 @@ Person.prototype.singSong = function () {
 
 function Sailor(name, sailorName) {
   Person.call(this, name);
-  this.sailorName = this.sailorName;
+  this.sailorName = sailorName;
 }
 Sailor.prototype.sailing = function () {
   console.log(

@@ -1,4 +1,4 @@
-//Function constructor to create a new person.
+//Constructor to create a new person.
 function Person(name) {
   this.name = name;
 }
@@ -6,11 +6,12 @@ function Person(name) {
 Person.prototype.singSong = function () {
   console.log(this.name + " starts singing");
 };
-
+//Constructor to create a new Sailor - which is a child for Person object.
 function Sailor(name, sailorName) {
   Person.call(this, name);
   this.sailorName = sailorName;
 }
+//Function for sailor to tell it's sailor name and start sailing.
 Sailor.prototype.sailing = function () {
   console.log(
     this.name +

@@ -22,3 +22,5 @@ class Sailor extends Person {
     );
   }
 }
+let keijo = new Sailor("keijo", "mustaparta");
+keijo.sailing();

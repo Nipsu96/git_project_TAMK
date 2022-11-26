@@ -9,7 +9,7 @@ class Person {
 }
 class Sailor extends Person {
   constructor(name, sailorName) {
-    this.name = super.name;
+    super.name = name;
     this.sailorName = sailorName;
   }
   sailing() {}

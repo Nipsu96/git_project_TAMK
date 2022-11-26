@@ -30,5 +30,5 @@ kalle.sailing();
 
 let veikko = new Person("veikko");
 veikko.singSong();
-//won't work because veikko isn't a sailor
+//next line won't work because veikko isn't a sailor
 //veikko.sailing();

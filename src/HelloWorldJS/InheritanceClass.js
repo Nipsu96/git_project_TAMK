@@ -12,5 +12,13 @@ class Sailor extends Person {
     super.name = name;
     this.sailorName = sailorName;
   }
-  sailing() {}
+  sailing() {
+    console.log(
+      this.name +
+        "'s" +
+        " sailorname is " +
+        this.sailorName +
+        " & he is sailing around the world!"
+    );
+  }
 }

@@ -23,12 +23,13 @@ Something to read the information from.
 The team suggests cygwin or git bash for terminal.
 
 ##Installation
+Git clone this repo or something I guess. And do npm install.
 
 ##Features
 The best features ever!
 
 ##License
-Code is made by this team. The ascii art is from the internet.
+Code is made by this team. The ascii art is from the internet (asciiart.eu).
 
 ##Authors
 
@@ -37,40 +38,44 @@ Code is made by this team. The ascii art is from the internet.
 3. Essi Ryynänen, Coder
 4. Matias Karmanto, Coder
 
-     .-"-.
-    /_ _  \
-    \@ @  /
-    (_> _)
-      `)(_
-      /((_`)_,
-      \__(/-"
-     __|||__
-jgs ((__|__))
-      Niko 
+         &
+      .-"`"-.
+     /       \
+     |   __  _|
+     |  /  \/ \
+    WW  \_o/_o/
+    (        _)
+     |   .----\
+     ;  | '----'
+      \__'--;`
+jgs   |___/\|
+       Niko 
 
-         .-"""-.
-        /       \
-        \       /
- .-"""-.-`.-.-.<  _
-/      _,-\ ()()_/:)
-\     / ,  `     `|
- '-..-| \-.,___,  /
-       \ `-.__/  /
-  jgs   `-.__.-'`
-         Matias
+         &
+      .-"`"-.
+     /       \
+     |   __  _|
+     |  /  \/ \
+    WW  \_o/_o/
+    (        _)
+     |   .----\
+     ;  | '----'
+      \__'--;`
+jgs   |___/\|
+      Matias
 
-    ____
-   (__  '.
-    /_____)
-   ()@ @ )))
-    'C ,()(()
-    ,.'_'.' \
- __/ )   (--'
-'._./     \
-   (_._._._)
-    _|| ||_
-mrf(__.).__)
-    Essi
+         &
+      .-"`"-.
+     /       \
+     |   __  _|
+     |  /  \/ \
+    WW  \_o/_o/
+    (        _)
+     |   .----\
+     ;  | '----'
+      \__'--;`
+jgs   |___/\|
+       Essi
 
 
          &
@@ -88,5 +93,5 @@ jgs   |___/\|
 ##Version history
 
 1.0.0 Initial release November 8 2022.
-1.0.1 release
-
+2.0.0 release November 23 2022.
+3.0.0 release ?

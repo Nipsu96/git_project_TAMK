@@ -88,5 +88,5 @@ jgs   |___/\|
 ##Version history
 
 1.0.0 Initial release November 8 2022.
-1.0.1 release
+2.0.0 release November 23 2022.
 

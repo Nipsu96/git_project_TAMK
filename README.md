@@ -23,6 +23,7 @@ Something to read the information from.
 The team suggests cygwin or git bash for terminal.
 
 ##Installation
+Git clone this repo or something I guess. And do npm install.
 
 ##Features
 The best features ever!

@@ -28,7 +28,7 @@ The team suggests cygwin or git bash for terminal.
 The best features ever!
 
 ##License
-Code is made by this team. The ascii art is from the internet.
+Code is made by this team. The ascii art is from the internet (asciiart.eu).
 
 ##Authors
 

@@ -26,6 +26,8 @@ class Sailor extends Person {
     );
   }
 }
+//Variable which is created with Sailor constructor and given name + sailorName.
 let keijo = new Sailor("keijo", "mustaparta");
+//Function calls to test out program functionality.
 keijo.sailing();
 keijo.singSong();

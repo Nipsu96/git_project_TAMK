@@ -8,6 +8,8 @@ class Person {
     console.log(this.name + " starts singing");
   }
 }
+//Sailor constructor which extends Sailor class.
+//Creates sailorName variable for the class.
 class Sailor extends Person {
   constructor(name, sailorName) {
     super(name);

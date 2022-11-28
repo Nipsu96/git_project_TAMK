@@ -21,6 +21,10 @@ class Sailor extends Person {
         " & he is sailing around the world!"
     );
   }
+  singSong() {
+    return super.singSong() + "sailor song!";
+  }
 }
 let keijo = new Sailor("keijo", "mustaparta");
 keijo.sailing();
+keijo.singSong();

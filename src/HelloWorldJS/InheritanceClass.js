@@ -1,8 +1,9 @@
-//1. Add class based example of inheritance
+//Constructor class to create a new object with a name.
 class Person {
   constructor(name) {
     this.name = name;
   }
+  //Function for object to log message for singing.
   singSong() {
     console.log(this.name + " starts singing");
   }

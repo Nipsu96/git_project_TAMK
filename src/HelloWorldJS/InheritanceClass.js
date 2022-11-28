@@ -15,6 +15,7 @@ class Sailor extends Person {
     super(name);
     this.sailorName = sailorName;
   }
+  //Function to log message with Person name, sailorName and messages.
   sailing() {
     console.log(
       this.name +

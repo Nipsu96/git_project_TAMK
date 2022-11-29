@@ -11,4 +11,5 @@ class Square extends Rectangle {
   }
 }
 //Calls getDescription via Square which is child to Rectangle
+//Both functions need to be static for this to work.
 console.log(Square.getDescription());

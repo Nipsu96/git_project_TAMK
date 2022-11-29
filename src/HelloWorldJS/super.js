@@ -1,3 +1,4 @@
+//Parent class with static method.
 class Rectangle {
   static getDescription() {
     return "I have 4 sides";

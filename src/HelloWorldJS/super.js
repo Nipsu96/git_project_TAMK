@@ -10,4 +10,5 @@ class Square extends Rectangle {
     return super.getDescription() + " which are all equal";
   }
 }
+//Calls getDescription via Square which is child to Rectangle
 console.log(Square.getDescription());

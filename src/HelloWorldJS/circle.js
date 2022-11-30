@@ -31,6 +31,7 @@ let a = new Circle(25);
 let b = new Circle(40);
 let c = new Circle(50);
 let d = new Circle(80);
+let e = new Circle(1000);
 
 // Changes radius, uses setter
 c.radius = 30;
@@ -39,7 +40,7 @@ c.radius = 30;
 console.log(c.radius);
 
 // Stores largest Circle to variable
-let largest = Circle.max([a, b, c, d]);
+let largest = Circle.max([a, b, c, d, e]);
 
 // Print the biggest radius
 console.log(largest);

@@ -4,7 +4,7 @@ class Person {
     this.name = name;
   }
   //Function for object to log message for singing.
-  singSong() {
+  static singSong() {
     console.log(this.name + " starts singing");
   }
 }
@@ -24,6 +24,9 @@ class Sailor extends Person {
         this.sailorName +
         " & he is sailing around the world!"
     );
+  }
+  static singSong() {
+    return super.singSong() + "sailorsssss";
   }
 }
 //Variable which is created with Sailor constructor and given name + sailorName.

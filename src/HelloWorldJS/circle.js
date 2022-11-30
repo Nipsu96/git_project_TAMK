@@ -17,6 +17,7 @@ class Circle {
     // Arrow func compares each value in array against each other
     // If return value is negative, a comes before b
     // If return value is positive, b comes befor a
+    console.log(array);
 
     array.sort((a, b) => b.radius - a.radius);
 
@@ -33,8 +34,8 @@ let d = new Circle(80);
 c.radius = 30;
 // returns radius, uses getter
 console.log(c.radius);
-//stores biggest variable to x
-let x = Circle.max([a, b, c, d]);
+//stores largest Circle to variable
+let largest = Circle.max([a, b, c, d]);
 //print the biggest radius
-console.log(x);
+console.log(largest);
 //c.radius = -70; // crashes app, radius must be > 0

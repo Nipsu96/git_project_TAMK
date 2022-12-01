@@ -1,3 +1,5 @@
 In the project we practiced github versioncontrol workflow.
 The project consisted of 4 weeks, 5 days a week, 5 commits per day.
 I used this time to create JS programs and to practice some JS skills.
+
+I feel I now understand working in features better.

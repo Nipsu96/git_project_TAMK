@@ -1,0 +1,2 @@
+Projektissa harjoiteltiin github workflowta.
+Käytin ajan hyödyksi ja tein JavaScript ohjelmia.

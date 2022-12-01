@@ -40,7 +40,7 @@ function App() {
 }
 
 //export
-
+export default App;
 //lie down on the ground
 //cry a little
 //cry a lot

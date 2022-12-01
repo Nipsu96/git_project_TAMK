@@ -41,18 +41,7 @@ Code is made by this team. The ascii art is from the internet (asciiart.eu).
          
   
 
-         &
-      .-"`"-.
-     /       \
-     |   __  _|
-     |  /  \/ \
-    WW  \_o/_o/
-    (        _)
-     |   .----\
-     ;  | '----'
-      \__'--;`
-jgs   |___/\|
-      Matias
+
 
          &
       .-"`"-.

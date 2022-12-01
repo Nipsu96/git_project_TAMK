@@ -27,6 +27,7 @@ fed to the rules and i hit the ground running*/
 
 // import
 import Fiona from "./Shrek";
+import GingerBreadMan from "./Shrek";
 
 //function component
 function App() {

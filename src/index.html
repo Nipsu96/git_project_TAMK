@@ -13,11 +13,24 @@
   <title>HelloWorld</title>
   </head>
   <body>
+    <script>
+    const main = async () => {
+        let response = await fetch("http://localhost:5000/api/shrek");
+        let data = await response.json();
+        
+        console.log(data);
+    
+    }
+    main();
+    </script>
+
     <main>
 	<h1>HELLO WORLD</h1>
 	<p> Hello world again</p>
     <figure>
-<!-- Start of Shrek>
+<!-- Start of Shrek -->
+
+<div class = "shrek">
  <span>⢀⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀   </span>    
  <span>⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀⠀   </span>
  <span>⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀   </span>
@@ -33,7 +46,9 @@
  <span>⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀</span>
  <span>⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>
  <span>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⠿⠿⠿⠛⠉            </span>
- <br>
+ </div> 
+<br>
+<div class = "logo">
  <span>⢀⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡤⡀⠀⠀<span>
  <span>⢰⣤⣿⣄⠀⠀⠀⢀⣀⣀⡀⠀⠀⠀⣀⣾⣤⡷⠀⠀<span>
  <span>⠀⠀⠈⣻⣿⣾⣿⠿⠛⠛⠻⢿⣿⣿⡟⠉⠀⠀  <span>
@@ -43,10 +58,9 @@
  <span>⠀⠀⠀⣤⣤⠀⠀⠈⠉⠛⠿⣿⣿⣿⣿⡇⣿⣿⣿⡏⠉⠉⠉⣿⣿⣿⡇⠀⢸⣿⣿⣿⠛⢿⣿⣦⠀⣿⣿⣿⡀⠀⠀⠀⣀⡀⣿⣿⣿⡏⢻⣿⣷⣄⠀⠀ <span>
  <span>  ⠀⣿⣿⣄⠀⠀⠀⠀⠀⣿⣿⣿⣿⠇⣿⣿⣿⡇⠀⠀⠀⣿⣿⣿⡇⠀⢸⣿⣿⣿⠀⠈⢿⣿⣧⠘⢿⣿⣿⣶⣶⣾⠟⠁⣿⣿⣿⡇⠀⠹⣿⣿⣆⠀⠀<span>
  <span>  ⠀⠛⠿⠿⣷⣤⣤⣤⣾⡿⠿⠛⠁⠐⠛⠛⠛⠛⠂⠀⠚⠛⠛⠛⠛⠀⠚⠛⠛⠛⠂⠀⠈⠛⠛⠓⠀⠈⠉⠉⠉⠀⠀⠐⠛⠛⠛⠛⠂⠀⢹⣿⣿⣷⣄ <span>
- <!-- End of Shrek>   
+ </div> 
+<!-- End of Shrek -->   
     </figure>
-
-
 
     </main>
 

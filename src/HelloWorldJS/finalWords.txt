@@ -1,2 +1,2 @@
-Projektissa harjoiteltiin github workflowta.
-Käytin ajan hyödyksi ja tein JavaScript ohjelmia.
+In the project we practiced github versioncontrol workflow.
+I used this time to create JS programs and to practice some JS skills.

@@ -38,60 +38,12 @@ Code is made by this team. The ascii art is from the internet (asciiart.eu).
 3. Essi Ryynänen, Coder
 4. Matias Karmanto, Coder
 
-         &
-      .-"`"-.
-     /       \
-     |   __  _|
-     |  /  \/ \
-    WW  \_o/_o/
-    (        _)
-     |   .----\
-     ;  | '----'
-      \__'--;`
-jgs   |___/\|
-       Niko 
-
-         &
-      .-"`"-.
-     /       \
-     |   __  _|
-     |  /  \/ \
-    WW  \_o/_o/
-    (        _)
-     |   .----\
-     ;  | '----'
-      \__'--;`
-jgs   |___/\|
-      Matias
-
-         &
-      .-"`"-.
-     /       \
-     |   __  _|
-     |  /  \/ \
-    WW  \_o/_o/
-    (        _)
-     |   .----\
-     ;  | '----'
-      \__'--;`
-jgs   |___/\|
-       Essi
+         
+  
 
 
-         &
-      .-"`"-.
-     /       \
-     |   __  _|
-     |  /  \/ \
-    WW  \_o/_o/
-    (        _)
-     |   .----\
-     ;  | '----'
-      \__'--;`
-jgs   |___/\|
-       Terhi
 ##Version history
 
 1.0.0 Initial release November 8 2022.
 2.0.0 release November 23 2022.
-3.0.0 release ?
+3.0.0 release December 2 2022.

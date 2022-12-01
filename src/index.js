@@ -34,6 +34,8 @@ if(i != 0){
 	console.log("We're no stangers to love");
 }
 
+console.log("You know the rules and so do I");
+
 
 
 //export

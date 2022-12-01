@@ -28,7 +28,7 @@ fed to the rules and i hit the ground running*/
 // import
 import Fiona from "./Shrek";
 
-
+//function component
 function App() {
 
     let i ="Shrek";

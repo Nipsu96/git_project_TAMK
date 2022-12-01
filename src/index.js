@@ -23,7 +23,8 @@ she was looking kind of dumb with her finger and her thumb
 in the shape of an "L" on her forehead
 
 well, the years start coming and they don't stop coming
-fed to the rules and i hit the ground running*/
+fed to the rules and i hit the ground running
+didn't make sense not to live for fun*/
 
 // import
 let i ="Shrek"

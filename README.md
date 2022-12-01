@@ -42,18 +42,6 @@ Code is made by this team. The ascii art is from the internet (asciiart.eu).
   
 
 
-         &
-      .-"`"-.
-     /       \
-     |   __  _|
-     |  /  \/ \
-    WW  \_o/_o/
-    (        _)
-     |   .----\
-     ;  | '----'
-      \__'--;`
-jgs   |___/\|
-       Terhi
 ##Version history
 
 1.0.0 Initial release November 8 2022.

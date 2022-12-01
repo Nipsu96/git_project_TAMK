@@ -23,7 +23,9 @@ she was looking kind of dumb with her finger and her thumb
 in the shape of an "L" on her forehead
 
 well, the years start coming and they don't stop coming
-fed to the rules and i hit the ground running*/
+fed to the rules and i hit the ground running
+didn't make sense not to live for fun
+you brain gets smart but your head gets dumb*/
 
 // import
 import Fiona from "./Shrek";
@@ -38,9 +40,7 @@ function App() {
 // 2. PROFIT
     if(i != 0){
 	console.log("We're no stangers to love");
-    }
 
-}
 
 //export
 export default App;
@@ -48,3 +48,7 @@ export default App;
 //cry a little
 //cry a lot
 //stop
+//hammertime
+//lmao
+//i cry evertytim'
+//sad story

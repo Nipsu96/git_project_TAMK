@@ -28,19 +28,22 @@ didn't make sense not to live for fun
 you brain gets smart but your head gets dumb*/
 
 // import
-let i ="Shrek"
-// 1. do some shit
-const donkey = "DONKEEH#";
-// 2. PROFIT
-if(i != 0){
-	console.log("We're no stangers to love");
-}
+import Fiona from "./Shrek";
+import GingerBreadMan from "./Shrek";
 
-console.log("You know the rules and so do I");
-var j = "FIONAAH";
-var k = "DRAGON";
+//function component
+function App() {
+
+    let i ="Shrek";
+// 1. do some shit
+    const donkey = "DONKEEH#";
+// 2. PROFIT
+    if(i != 0){
+	console.log("We're no stangers to love");
+
 
 //export
+export default App;
 //lie down on the ground
 //cry a little
 //cry a lot

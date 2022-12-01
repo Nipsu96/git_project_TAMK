@@ -24,7 +24,8 @@ in the shape of an "L" on her forehead
 
 well, the years start coming and they don't stop coming
 fed to the rules and i hit the ground running
-didn't make sense not to live for fun*/
+didn't make sense not to live for fun
+you brain gets smart but your head gets dumb*/
 
 // import
 let i ="Shrek"

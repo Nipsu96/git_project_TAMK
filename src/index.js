@@ -26,10 +26,12 @@ well, the years start coming and they don't stop coming
 fed to the rules and i hit the ground running*/
 
 // import
+import Fiona from "./Shrek";
+
 
 function App() {
 
-    let i ="Shrek"
+    let i ="Shrek";
 // 1. do some shit
     const donkey = "DONKEEH#";
 // 2. PROFIT

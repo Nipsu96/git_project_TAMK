@@ -26,17 +26,21 @@ well, the years start coming and they don't stop coming
 fed to the rules and i hit the ground running*/
 
 // import
-let i ="Shrek"
+
+function App() {
+
+    let i ="Shrek"
 // 1. do some shit
-const donkey = "DONKEEH#";
+    const donkey = "DONKEEH#";
 // 2. PROFIT
-if(i != 0){
+    if(i != 0){
 	console.log("We're no stangers to love");
+    }
+
 }
 
-
-
 //export
+
 //lie down on the ground
 //cry a little
 //cry a lot
